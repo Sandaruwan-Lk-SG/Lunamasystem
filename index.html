@@ -369,7 +369,7 @@
                     
                     resultDiv.textContent = `Defect %: ${percentage.toFixed(2)}%`;
                     
-                    // Color coding based on percentage
+                    // Color coding based on percentage ප්‍රතිශත අදාලව 
                     if (percentage > 10) {
                         resultDiv.className = 'result negative';
                     } else if (percentage > 0) {
@@ -403,7 +403,7 @@
             document.getElementById('total-defects').textContent = totalDefects;
             document.getElementById('total-percentage').textContent = `${percentage.toFixed(2)}%`;
             
-            // Color coding for summary
+            // Color coding for summary පාට නිකුතුවට
             if (percentage > 10) {
                 document.getElementById('total-percentage').className = 'summary-value negative';
             } else if (percentage > 0) {
@@ -432,7 +432,7 @@
         window.onload = function() {
             calculateHourlyPercentage();
             
-            // Add event listener to the calculate button
+            // Add event listener to the calculate button අවසන් එකතුවට අදාලයී 
             document.getElementById('calculate-btn').addEventListener('click', calculateSummary);
             
             // Add event listener to the clear button
@@ -445,5 +445,7 @@
             });
         };
     </script>
+    <p>This website is fully owned by the Lunama Triple Holding Quality team. Unauthorized copying, distortion, or selling for profit may lead to legal action. You may use this as a non-commercial website. If you encounter any issues, please kindly contact S92076497@ousl.com.</p>
+    <p>Development and technical support provided by Sandaruwan Jayalath (Q.C Lunama)</p>
 </body>
 </html>
